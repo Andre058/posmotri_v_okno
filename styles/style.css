@@ -124,6 +124,7 @@ ol {
 
 .search-form__textfield:focus-visible {
   outline: 1px solid #fff;
+  outline-offset: 2px;
 }
 
 .search-form__textfield:hover {
@@ -149,6 +150,7 @@ ol {
 
 .search-form__textfield:focus-visible {
   outline: 1px solid #fff;
+  outline-offset: 2px;
 }
 
 .search-form__textfield:hover {
@@ -171,12 +173,13 @@ ol {
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
-  padding-bottom: 6px;
+  padding-bottom: 2px;
 }
 
 
 .search-form__label:has(:focus-visible) {
-  outline: 1px solid #fff;
+  outline: #ffffff solid 1px;
+  outline-offset: 2px;
 }
 
 .search-form__label:has(.search-form__checkbox):hover {
@@ -202,16 +205,8 @@ ol {
   height: 19px;
   border: 1px solid #fff;
   cursor: pointer;
-}
-
-.search-form__pseudo-checkbox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 19px;
-  height: 19px;
-  border: 1px solid #fff;
-  cursor: pointer;
+  margin-bottom: 2px;
+  margin-left: 2px;
 }
 
 .search-form__checkbox:checked+.search-form__pseudo-checkbox::after {
@@ -251,6 +246,7 @@ ol {
 
 .button:focus-visible {
   outline: 1px solid #fff;
+  outline-offset: 1px;
 }
 
 .search-form__submit-button {
