@@ -9,8 +9,10 @@ html {
 }
 
 .page {
+  display: grid;
+  align-content: center;
+  justify-content: center;
   inline-size: 1200px;
-  block-size: 100%;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -49,9 +51,6 @@ ol {
 .result {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-  height: 456px;
   gap: 16px;
 }
 
