@@ -41,11 +41,9 @@ ol {
 
 .content {
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  align-items: end;
   gap: 30px;
-  width: 1140px;
-  margin: 133px auto;
+   margin: 133px;
 }
 
 .result {
