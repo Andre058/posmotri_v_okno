@@ -13,7 +13,7 @@ html {
   align-content: center;
   justify-content: center;
   inline-size: 1200px;
-  margin: auto;
+  margin: 130px auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -43,7 +43,6 @@ ol {
   display: flex;
   align-items: end;
   gap: 30px;
-   margin: 133px;
 }
 
 .result {
